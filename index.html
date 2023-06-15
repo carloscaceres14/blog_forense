@@ -1,0 +1,639 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Agrego el fonts (y la carpeta fonts que esta donde esta la carpeta del css), que nos ayudará a ponder poner los iconos de las redes al comienzo de la página-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  </head>
+
+  <body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+    <header class="site-header">
+        <div class="hero">
+          <div class="contenido-header">
+              <!--Creo el navegador de las redes sociales-->
+              <nav class="redes-sociales">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </nav>
+
+              <div class="informacion-evento">
+                  <h1 class="nombre-sitio">Computacion Forense</h1>
+                </div> <!--.información-evento-->
+              
+          </div><!--.contenido-header-->
+
+        </div><!--.hero-->
+
+    </header>
+
+    <div class="barra">
+      <div class="contenedor clearfix">
+        
+        <div class="menu-movil">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <nav class="navegacion-principal clearfix" >
+          
+          <a href="index.html" >Inicio</a>
+          <a href="#">Acerca de nosotros</a>
+          <a href="eventos.html">imagen foresne</a>
+          <a href="#">Aprende informatica foresne</a>
+          <a href="registro.html">Tienes problemas?</a>
+        </nav>
+      </div>
+    </div> <!--Barra de navegación-->
+
+    <section class="seccion contenedor">
+      <section class="programa">
+
+      <h2>Adquisicion de imagenes forense</h2>
+
+      <div class="contenidos">
+
+        <p>
+          La adquisición de imagen forense es el proceso de obtener y conservar imágenes digitales de una manera forensemente sólida para su análisis y uso en  
+          investigaciones legales. Se refiere específicamente a la obtención de imágenes digitales de dispositivos electrónicos, como computadoras, teléfonos móviles, 
+          discos duros, cámaras digitales y otros dispositivos de almacenamiento, con el propósito de recuperar pruebas digitales relevantes para una investigación criminal o civil.
+         </p>
+          <br>
+         <p>
+          La adquisición de imagen forense busca garantizar la integridad de los datos y preservar la evidencia digital de forma que sea admisible en un tribunal 
+          de justicia. Se utilizan herramientas y técnicas especializadas para copiar el contenido de un dispositivo digital sin alterarlo, de modo que se pueda 
+          llevar a cabo un análisis forense posterior sin corromper ni modificar los datos originales.
+         </p>
+         <br>
+         <p>
+          Es importante realizar la adquisición de imagen forense de manera adecuada y siguiendo pautas y estándares establecidos, para asegurar 
+          que los datos adquiridos sean precisos, confiables y puedan ser utilizados como evidencia en un proceso legal. Esto implica la documentación 
+          adecuada de los pasos tomados durante el proceso de adquisición, el uso de herramientas confiables y el almacenamiento seguro de la imagen obtenida 
+          para evitar su deterioro.
+  
+         </p>
+
+      
+      <section class="invitados contenedor seccion">
+        <ul class="listado-invitados clearfix">
+  
+          <li>
+            <div class="invitado">
+              <img src="img/imagenf1.jpg" alt="Imagen Invitado">
+            </div>
+          </li>
+  
+          <li>
+              <div class="invitado">
+                <img src="img/imagenf2.jpg" alt="Imagen Invitado">
+              </div>
+          </li>
+          <li>
+              <div class="invitado">
+                <img src="img/imagenf4.jpg" alt="Imagen Invitado">
+              </div>
+          </li>
+
+        </ul>
+      </div>
+
+      <h1>Video explicativo</h1>
+      <div class="contenedor-video">
+        <iframe width="700" height="315" src="https://www.youtube.com/embed/3oSiccwGuOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div><!--.Contenedor-video-->
+      </section>
+   
+    </section><!--seccion contenedor-->
+
+    <section class="seccion contenedor">
+
+      <h2>FTK Imager</h2>
+
+      <div class="contenidos">
+
+        <p>
+          FTK Imager es una herramienta forense desarrollada por AccessData, una empresa especializada en soluciones de seguridad y 
+          análisis digital. FTK (Forensic Toolkit) Imager es una de las aplicaciones más populares y ampliamente utilizadas en el campo de la informática forense.
+         </p>
+          <br>
+         <p>
+          FTK Imager se utiliza para adquirir y examinar datos digitales de manera sólida. Permite realizar la copia exacta (bit a bit) de dispositivos de 
+          almacenamiento como discos duros, unidades flash, 
+          tarjetas de memoria y otros medios digitales. También puede adquirir imágenes lógicas y segmentadas de particiones o archivos específicos.
+         </p>
+         <br>
+  
+
+      
+      <section class="invitados contenedor seccion">
+        <ul class="listado-invitados clearfix">
+  
+          <li>
+            <div class="invitado">
+              <img src="img/ftk1.jpg" alt="Imagen Invitado">
+            </div>
+          </li>
+  
+          <li>
+              <div class="invitado">
+                <img src="img/ftk2.jpg" alt="Imagen Invitado">
+              </div>
+          </li>
+          <li>
+              <div class="invitado">
+                <img src="img/ftk3.jpg" alt="Imagen Invitado">
+              </div>
+          </li>
+
+        </ul>
+      </div>
+      
+      <h1>Video explicativo</h1>
+      <div class="contenedor-video">
+        <iframe width="700" height="315" src="https://www.youtube.com/embed/uW9M_KhcH1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div><!--.Contenedor-video-->
+      </section>
+    
+      <section class="seccion contenedor">
+
+        <h2>Paladín forensics</h2>
+  
+        <div class="contenidos">
+  
+          <p>
+            Es una distribución de Linux para generar máquinas forenses. 
+            Modo forense: se activa por defecto en Paladin, y funciona como un protector contra escritura a todos los dispositivos que estén conectados al computador.
+           </p>
+            <br>
+           <p>
+            En Paladin forensics encontraremos una gran cantidad de herramientas en esta suite para realizar diferentes tareas, lo más destacable es que incorpora más de 100 herramientas muy útiles 
+            para investigar  incidentes informáticos. Gracias a Paladin, podremos simplificar y acelerar las tareas forenses. 
+            Este software dispone de interfaz gráfica de usuario, no requiere la utilización de comandos en línea, por lo que nos facilitará enormemente su utilización.
+           </p>
+           <br>
+    
+  
+        
+        <section class="invitados contenedor seccion">
+          <ul class="listado-invitados clearfix">
+    
+            <li>
+              <div class="invitado">
+                <img src="img/paladin1.jpg" alt="Imagen Invitado">
+              </div>
+            </li>
+    
+            <li>
+                <div class="invitado">
+                  <img src="img/paladin2.jpg" alt="Imagen Invitado">
+                </div>
+            </li>
+            <li>
+                <div class="invitado">
+                  <img src="img/paladin3.png" alt="Imagen Invitado">
+                </div>
+            </li>
+  
+          </ul>
+        </div>
+        <h1>Video explicativo</h1>
+      <div class="contenedor-video">
+        <iframe width="700" height="315" src="https://www.youtube.com/embed/c0TH-upir88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      </div><!--.Contenedor-video-->
+        </section>
+
+
+        <section class="seccion contenedor">
+
+          <h2>Encase Imager</h2>
+    
+          <div class="contenidos">
+    
+            <p>
+              Es una herramienta utilizada en el campo de la informática forense para la adquisición y creación de imágenes forenses de dispositivos de almacenamiento. 
+              Fue desarrollado por Guidance Software, ahora adquirido por OpenText, y es parte de la suite de software EnCase Forensic.
+             </p>
+              <br>
+             <p>
+              EnCase Imager permite realizar copias forenses un poco de discos duros, dispositivos USB, tarjetas de memoria y otros medios de almacenamiento. 
+              Su objetivo es preservar la integridad de los datos durante la adquisición, 
+              garantizando que no se realicen modificaciones en los datos originales.
+             </p>
+
+             <p>
+              Algunas de las características y funcionalidades de EnCase Imager incluyen:
+             </p>
+
+             <p>
+              1. Adquisición de imágenes forenses: Permite crear copias forenses de dispositivos de almacenamiento completos o segmentados, 
+              incluyendo particiones específicas o archivos seleccionados.
+             </p>
+
+             <p>
+              2. Verificación de integridad: Verifica la integridad de la imagen obtenida mediante la generación de hash y la comparación con el hash original del dispositivo.
+             </p>
+
+             <p>
+              3. Soporte de diferentes formatos de imagen: Puede crear imágenes en formatos estándar como EnCase Evidence File (E01), Raw (DD), y Advanced Forensic Format (AFF), 
+              lo que permite una fácil compatibilidad y análisis con otras herramientas forenses.
+             </p>
+             <br>
+      
+    
+          
+          <section class="invitados contenedor seccion">
+            <ul class="listado-invitados clearfix">
+      
+              <li>
+                <div class="invitado">
+                  <img src="img/encase1.jpg" alt="Imagen Invitado">
+                </div>
+              </li>
+      
+              <li>
+                  <div class="invitado">
+                    <img src="img/encase2.png" alt="Imagen Invitado">
+                  </div>
+              </li>
+              <li>
+                  <div class="invitado">
+                    <img src="img/encase3.png" alt="Imagen Invitado">
+                  </div>
+              </li>
+    
+            </ul>
+          </div>
+          <h1>Video explicativo</h1>
+      <div class="contenedor-video">
+        <iframe width="700" height="315" src="https://www.youtube.com/embed/Q3LRnID_s6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div><!--.Contenedor-video-->
+          </section>
+   
+    </section><!--seccion contenedor-->
+    
+    <section class="seccion contenedor">
+
+      
+
+      <div class="contenidos">
+
+        <h2>Ventajas y desventajas de usar windos, linux y mac para la creacion de imagenes forenses</h2>
+            <h1>ventajas de windows:</h1>
+        <p>
+            1. Amplia disponibilidad de herramientas forenses y software especializado.
+         </p>
+         <p>
+          2.Interfaz de usuario amigable y familiar para la mayoría de los usuarios.
+         </p>
+
+         <p>
+          3.Soporte de hardware y controladores extensos.
+         </p>
+
+         <p>
+          4.Integración con aplicaciones y herramientas comerciales.
+         </p>
+         
+         <br>
+
+         <h1>Desventajas de Windows:</h1>
+         <p>
+             1. Puede ser más susceptible a ataques de malware y virus.
+          </p>
+          <p>
+           2.Menor flexibilidad y control en comparación con sistemas operativos de código abierto.
+          </p>
+ 
+          <p>
+           3.Costo asociado con licencias de software y herramientas adicionales.
+          </p>
+ 
+      <section class="invitados contenedor seccion">
+        <ul class="listado-invitados clearfix">
+  
+          <li>
+            <div class="invitado">
+              <img src="img/windows1.jpg" alt="Imagen Invitado">
+            </div>
+          </li>
+  
+          <li>
+              <div class="invitado">
+                <img src="img/windosw2.jpg" alt="Imagen Invitado">
+              </div>
+          </li>
+          <li>
+              <div class="invitado">
+                <img src="img/windows3.jpg" alt="Imagen Invitado">
+              </div>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="contenidos">
+            <h1>Ventajas de linux:</h1>
+        <p>
+            1. Sistema operativo de código abierto con acceso a una amplia variedad de herramientas forenses gratuitas y de código abierto.
+         </p>
+         <p>
+          2.Mayor seguridad y menor susceptibilidad a malware y virus.
+         </p>
+
+         <p>
+          3.Flexibilidad y personalización, ya que se puede adaptar según las necesidades específicas.
+         </p>
+
+         <p>
+          4.Mayor control sobre el sistema operativo y los componentes.
+         </p>
+         
+         <br>
+
+         <h1>Desventajas de linux</h1>
+         <p>
+             1. Curva de aprendizaje más pronunciada para usuarios no desarrollados con Linux.
+          </p>
+          <p>
+           2.Posible incompatibilidad con hardware o controladores específicos.
+          </p>
+ 
+          <p>
+           3.Menor disponibilidad de aplicaciones y herramientas comerciales especializadas.
+          </p>
+ 
+      <section class="invitados contenedor seccion">
+        <ul class="listado-invitados clearfix">
+  
+          <li>
+            <div class="invitado">
+              <img src="img/linux1.jpg" alt="Imagen Invitado">
+            </div>
+          </li>
+  
+          <li>
+              <div class="invitado">
+                <img src="img/linux2.jpg" alt="Imagen Invitado">
+              </div>
+          </li>
+          <li>
+              <div class="invitado">
+                <img src="img/linux3.jpg" alt="Imagen Invitado">
+              </div>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="contenidos">
+
+        
+        <h1>Ventajas de Mac:</h1>
+    <p>
+        1.Incorpora tecnología de Unix y ofrece una interfaz de usuario intuitiva.
+     </p>
+     <p>
+      2.Buena seguridad y menor susceptibilidad a malware en comparación con Windows.
+     </p>
+
+     <p>
+      3.Integración con otros productos y servicios de Apple.
+     </p>
+
+     <br>
+
+     <h1>Desventajas de Mac</h1>
+     <p>
+         1.Disponibilidad más limitada de herramientas forenses específicas en comparación con Windows y Linux.
+      </p>
+      <p>
+       2.Costo más elevado de hardware y licencias de software.
+      </p>
+
+      <p>
+       3.Menor flexibilidad y personalización en comparación con sistemas operativos de código abierto.
+      </p>
+
+  <section class="invitados contenedor seccion">
+    <ul class="listado-invitados clearfix">
+
+      <li>
+        <div class="invitado">
+          <img src="img/mac1.jpg" alt="Imagen Invitado">
+        </div>
+      </li>
+
+      <li>
+          <div class="invitado">
+            <img src="img/mac2.jpg" alt="Imagen Invitado">
+          </div>
+      </li>
+      <li>
+          <div class="invitado">
+            <img src="img/mac3.jpg" alt="Imagen Invitado">
+          </div>
+      </li>
+
+    </ul>
+  </div>
+  <h1>Video explicativo</h1>
+  <div class="contenedor-video">
+    <iframe width="700" height="315" src="https://www.youtube.com/embed/1A4BLTKKM80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  </div><!--.Contenedor-video-->
+
+  <div class="contenidos">
+            <h1>Algoritmos hash:</h1>
+        <p>
+          
+          En informática forense, el algoritmo de hash se utiliza para garantizar la integridad y la autenticidad de los datos durante las investigaciones. 
+          Un hash es un valor único y determinista que se calcula a partir de los datos de entrada utilizando un algoritmo de hash específico.
+
+            Aquí hay algunas razones por las cuales el algoritmo de hash es utilizado en computación forense:
+         </p>
+         <p>
+          1. Verificación de equipo: Los algoritmos de hash pueden usarse para verificar si los datos han sido alterados durante una investigación. 
+          Si los datos han sido modificados, el hash generado a partir de ellos será diferente al hash original.
+         </p>
+
+         <p>
+          2.Firma digital: En la computación forense, se utilizan firmas digitales para garantizar la autenticidad y la no repudiación de los datos. 
+          Un algoritmo de hash se usa
+         </p>
+
+      
+         
+ 
+      <section class="invitados contenedor seccion">
+        <ul class="listado-invitados clearfix">
+  
+          <li>
+            <div class="invitado">
+              <img src="img/hash1.jpg" alt="Imagen Invitado">
+            </div>
+          </li>
+  
+          <li>
+              <div class="invitado">
+                <img src="img/hash2.jpg" alt="Imagen Invitado">
+              </div>
+          </li>
+          <li>
+              <div class="invitado">
+                <img src="img/hash3.jpg" alt="Imagen Invitado">
+              </div>
+          </li>
+
+        </ul>
+      </div>
+      <h1>Video explicativo</h1>
+      <div class="contenedor-video">
+        <iframe width="700" height="315" src="https://www.youtube.com/embed/MZG0clGiroU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      </div><!--.Contenedor-video-->
+      </div><!--.Contenedor-video-->
+      </section>
+   
+    </section><!--seccion contenedor-->
+
+
+
+
+            <div id="talleres" class="info-curso ocultar clearfix">
+              
+              <div class="detalle-evento">
+                <h3>Tour por Cartagena la fantastica!</h3>
+                <p><i class="fa fa-clock-o" aria-hidden="true"></i> 9:30 Am</p>
+                <p><i class="fa fa-calendar" aria-hidden="true"></i> 19 de enero</p>
+                <p><i class="fa fa-user" aria-hidden="true"></i> Manuel Garcia Julio</p>
+              </div>
+
+              <div class="detalle-evento">
+                  <h3>Viaje a playa blanca</h3>
+                  <p><i class="fa fa-clock-o" aria-hidden="true"></i> 2:00 Pm</p>
+                  <p><i class="fa fa-calendar" aria-hidden="true"></i> 19 de enero</p>
+                  <p><i class="fa fa-user" aria-hidden="true"></i> Manuel Garcia Julio</p>
+                </div>
+
+                <a href="#" class="button float-rigth">Conoce mas...</a>
+            </div><!--talleres-->
+
+            <div id="comferencias" class="info-curso ocultar clearfix">
+              
+              <div class="detalle-evento">
+                <h3>Viaja al volcán del totumo</h3>
+                <p><i class="fa fa-clock-o" aria-hidden="true"></i> 9:30 Am</p>
+                <p><i class="fa fa-calendar" aria-hidden="true"></i> 30 de Enero</p>
+                <p><i class="fa fa-user" aria-hidden="true"></i> Mario Garcia ;v</p>
+              </div>
+
+              <div class="detalle-evento">
+                  <h3>Una tarde en Galerasamba</h3>
+                  <p><i class="fa fa-clock-o" aria-hidden="true"></i> 17:00 Pm</p>
+                  <p><i class="fa fa-calendar" aria-hidden="true"></i> 30 de Enero</p>
+                  <p><i class="fa fa-user" aria-hidden="true"></i> Mario Gacria c':</p>
+                </div>
+
+                <a href="#" class="button float-rigth">Conoce mas...</a>
+            </div><!--comferencias-->
+
+            <div id="seminarios" class="info-curso ocultar clearfix">
+              
+              <div class="detalle-evento">
+                <h3>Palacio de la inquisición</h3>
+                <p><i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 Pm</p>
+                <p><i class="fa fa-calendar" aria-hidden="true"></i> 12 de Febrero</p>
+                <p><i class="fa fa-user" aria-hidden="true"></i> Nairo Quintana :v</p>
+              </div>
+
+              <div class="detalle-evento">
+                  <h3>Museo del oro</h3>
+                  <p><i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 Pm</p>
+                  <p><i class="fa fa-calendar" aria-hidden="true"></i> 1 de Marzo</p>
+                  <p><i class="fa fa-user" aria-hidden="true"></i> Sandi Batista</p>
+                </div>
+
+                <a href="#" class="button float-rigth">Conoce mas...</a>
+            </div><!--seminarios-->
+
+          </div><!--Programa-evento-->
+        </div><!--Contenedor-->
+      </div><!--Contenido-programa-->
+
+    </section><!--Programa-->
+
+   
+
+  
+
+
+    <footer class="site-footer">
+      <div class="contenedor clearfix">
+
+        <div class="footer-informacion">
+          <h3>Sobre <span>Nosotros</span></h3>
+          <p> Somos una empresa dedicada a la enseñanza de informática forense, con el objetivo de instruir a nuevos jóvenes en este campo y puedan protegerse del amplio crimen que existe en la web  </p>
+        </div>
+
+        <div class="ultimos-tweets">
+          <h3>Aprende <span>computacion forense</span></h3>
+         <p>La informática forense, también conocida como ciberforense o análisis forense digital, es una disciplina especializada en la recolección, tuvieron, análisis y presentación de evidencia digital en investigaciones legales y criminales. A medida que la 
+          tecnología avanza y se vuelve más omnipresente en nuestras vidas, también aumenta la importancia de la informática forense</p>
+        </div>
+
+        <div class="menu">
+          <h3>Redes <span>Sociales</span></h3>
+          <nav class="redes-sociales">
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </nav>
+        </div>
+
+      </div>
+      <p class="copyright">Todos los derechos reservados Ccaceres 2023.</p>
+
+    </footer>
+
+
+
+    <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <!--Hoja(en css) de estilos del mapa -->
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  </body>
+
+</html>
